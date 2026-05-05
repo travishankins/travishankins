@@ -40,7 +40,7 @@ jobs:
             // Render as github-readme-stats pin cards in a centered <p> with two-per-row layout.
             const cards = picks.map(r => {
               const url = `https://github.com/${user}/${r.name}`;
-              const img = `https://travishankins.vercel.app/api/pin/?username=${user}&repo=${encodeURIComponent(r.name)}&hide_border=true&bg_color=00000000`;
+              const img = `https://github-readme-stats.vercel.app/api/pin/?username=${user}&repo=${encodeURIComponent(r.name)}&hide_border=true&bg_color=00000000`;
               return `  <a href="${url}"><img height="120" src="${img}" alt="${r.name}"/></a>`;
             }).join('\n');
 
