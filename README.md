@@ -39,7 +39,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=travishankins&hide_border=true&theme=transparent" alt="GitHub streak"/>
+  <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=travishankins&theme=dark&exclude_days=Sun%2CSat" alt="GitHub Streak"/></a>
 </p>
 
 ---
