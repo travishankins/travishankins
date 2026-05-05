@@ -34,12 +34,7 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=travishankins&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=00000000" alt="Travis's GitHub stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=travishankins&layout=compact&hide_border=true&bg_color=00000000" alt="Top languages"/>
-</p>
-
-<p align="center">
-  <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=travishankins&theme=dark&exclude_days=Sun%2CSat" alt="GitHub Streak"/></a>
+  <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=travishankins&theme=transparent&exclude_days=Sun%2CSat" alt="GitHub Streak"/></a>
 </p>
 
 ---
