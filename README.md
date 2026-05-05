@@ -34,8 +34,8 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://travishankins-32x3unt6y-travishankins-projects.vercel.app/api?username=travishankins&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=00000000" alt="Travis's GitHub stats"/>
-  <img height="165" src="https://travishankins-32x3unt6y-travishankins-projects.vercel.app/api/top-langs/?username=travishankins&layout=compact&hide_border=true&bg_color=00000000" alt="Top languages"/>
+  <img height="165" src="https://travishankins.vercel.app/api?username=travishankins&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=00000000" alt="Travis's GitHub stats"/>
+  <img height="165" src="https://travishankins.vercel.app/api/top-langs/?username=travishankins&layout=compact&hide_border=true&bg_color=00000000" alt="Top languages"/>
 </p>
 
 <p align="center">
@@ -48,11 +48,11 @@
 
 <!-- RECENT-REPOS:START -->
 <p align="center">
-  <a href="https://github.com/travishankins/azure-launchpad"><img height="120" src="https://travishankins-32x3unt6y-travishankins-projects.vercel.app/api/pin/?username=travishankins&repo=azure-launchpad&hide_border=true&bg_color=00000000" alt="azure-launchpad"/></a>
-  <a href="https://github.com/travishankins/azure-agentic-demo"><img height="120" src="https://travishankins-32x3unt6y-travishankins-projects.vercel.app/api/pin/?username=travishankins&repo=azure-agentic-demo&hide_border=true&bg_color=00000000" alt="azure-agentic-demo"/></a>
-  <a href="https://github.com/travishankins/azure-monitor-poc"><img height="120" src="https://travishankins-32x3unt6y-travishankins-projects.vercel.app/api/pin/?username=travishankins&repo=azure-monitor-poc&hide_border=true&bg_color=00000000" alt="azure-monitor-poc"/></a>
-  <a href="https://github.com/travishankins/azure-fileshare-cost-workbook"><img height="120" src="https://travishankins-32x3unt6y-travishankins-projects.vercel.app/api/pin/?username=travishankins&repo=azure-fileshare-cost-workbook&hide_border=true&bg_color=00000000" alt="azure-fileshare-cost-workbook"/></a>
-  <a href="https://github.com/travishankins/azure-file-purge"><img height="120" src="https://travishankins-32x3unt6y-travishankins-projects.vercel.app/api/pin/?username=travishankins&repo=azure-file-purge&hide_border=true&bg_color=00000000" alt="azure-file-purge"/></a>
+  <a href="https://github.com/travishankins/azure-launchpad"><img height="120" src="https://travishankins.vercel.app/api/pin/?username=travishankins&repo=azure-launchpad&hide_border=true&bg_color=00000000" alt="azure-launchpad"/></a>
+  <a href="https://github.com/travishankins/azure-agentic-demo"><img height="120" src="https://travishankins.vercel.app/api/pin/?username=travishankins&repo=azure-agentic-demo&hide_border=true&bg_color=00000000" alt="azure-agentic-demo"/></a>
+  <a href="https://github.com/travishankins/azure-monitor-poc"><img height="120" src="https://travishankins.vercel.app/api/pin/?username=travishankins&repo=azure-monitor-poc&hide_border=true&bg_color=00000000" alt="azure-monitor-poc"/></a>
+  <a href="https://github.com/travishankins/azure-fileshare-cost-workbook"><img height="120" src="https://travishankins.vercel.app/api/pin/?username=travishankins&repo=azure-fileshare-cost-workbook&hide_border=true&bg_color=00000000" alt="azure-fileshare-cost-workbook"/></a>
+  <a href="https://github.com/travishankins/azure-file-purge"><img height="120" src="https://travishankins.vercel.app/api/pin/?username=travishankins&repo=azure-file-purge&hide_border=true&bg_color=00000000" alt="azure-file-purge"/></a>
 </p>
 <!-- RECENT-REPOS:END -->
 
