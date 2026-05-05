@@ -44,16 +44,6 @@
 
 ---
 
-### 🎧 Now Playing on Spotify
-
-<p align="center">
-  <a href="https://open.spotify.com/user/travis.hankins">
-    <img src="https://spotify-recently-played-readme.vercel.app/api?user=travis.hankins&count=5&unique=true" alt="Recently played on Spotify"/>
-  </a>
-</p>
-
----
-
 ### 🛠️ Recently Active Repos
 
 <!-- RECENT-REPOS:START -->
@@ -65,11 +55,6 @@
   <a href="https://github.com/travishankins/azure-file-purge"><img height="120" src="https://github-readme-stats.vercel.app/api/pin/?username=travishankins&repo=azure-file-purge&hide_border=true&bg_color=00000000" alt="azure-file-purge"/></a>
 </p>
 <!-- RECENT-REPOS:END -->
-
-### ⚡ Recent Activity
-
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
 
 ---
 
