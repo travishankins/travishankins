@@ -34,7 +34,7 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=travishankins&theme=transparent&exclude_days=Sun%2CSat" alt="GitHub Streak"/></a>
+  <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=travishankins&theme=transparent" alt="GitHub Streak"/></a>
 </p>
 
 ---
