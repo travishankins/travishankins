@@ -47,8 +47,8 @@
 ### 🎧 Now Playing on Spotify
 
 <p align="center">
-  <a href="https://open.spotify.com/user/travishankins">
-    <img src="https://spotify-recently-played-readme.vercel.app/api?user=travishankins&count=5&unique=true" alt="Recently played on Spotify"/>
+  <a href="https://open.spotify.com/user/travis.hankins">
+    <img src="https://spotify-recently-played-readme.vercel.app/api?user=travis.hankins&count=5&unique=true" alt="Recently played on Spotify"/>
   </a>
 </p>
 
