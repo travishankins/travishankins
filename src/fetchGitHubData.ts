@@ -35,9 +35,9 @@ export async function fetchGitHubData(
       };
 
       const emoji = pickEmoji(data.name, data.language);
-      const desc = data.description ? ` — ${escapeHtml(data.description)}` : "";
+      const desc = data.description ? escapeHtml(data.description) : "";
 
-      return `<li>${emoji} <a href="${data.html_url}" target="_blank" rel="noopener noreferrer"><b>${data.name}</b></a> · <b>${data.stargazers_count}</b> ⭐ · <b>${data.forks_count}</b> 🍴${desc}</li>`;
+      return `<li>${emoji} <a href="${data.html_url}" target="_blank" rel="noopener noreferrer"><b>${data.name}</b></a> - ${desc}</li>`;
     }),
   );
 

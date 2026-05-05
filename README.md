@@ -36,14 +36,14 @@
 
 <!-- FEATURED-REPOS:START -->
 <ul>
-  <li>🌍 <a href="https://github.com/travishankins/azure-launchpad" target="_blank" rel="noopener noreferrer"><b>azure-launchpad</b></a> · <b>0</b> ⭐ · <b>0</b> 🍴 — 🚀 Azure Launchpad (SMEC Edition) — opinionated Azure landing zone for small and midsized enterprises (Terraform + Bicep + interactive deployment wizard)</li>
-  <li>🤖 <a href="https://github.com/travishankins/azure-agentic-demo" target="_blank" rel="noopener noreferrer"><b>azure-agentic-demo</b></a> · <b>0</b> ⭐ · <b>0</b> 🍴 — Agentic DevOps &amp; GitHub Copilot Deep Dive demo - MCP servers, Agent Mode, Coding Agent</li>
-  <li>📈 <a href="https://github.com/travishankins/azure-monitor-poc" target="_blank" rel="noopener noreferrer"><b>azure-monitor-poc</b></a> · <b>0</b> ⭐ · <b>0</b> 🍴</li>
-  <li>💪 <a href="https://github.com/travishankins/azure-fileshare-cost-workbook" target="_blank" rel="noopener noreferrer"><b>azure-fileshare-cost-workbook</b></a> · <b>0</b> ⭐ · <b>0</b> 🍴 — Azure Workbook that shows estimated cost per file share by distributing storage account billing proportionally based on provisioned capacity</li>
-  <li>🧹 <a href="https://github.com/travishankins/azure-file-purge" target="_blank" rel="noopener noreferrer"><b>azure-file-purge</b></a> · <b>0</b> ⭐ · <b>0</b> 🍴 — PowerShell script that bulk-deletes files older than a chosen age in an Azure File Share—handles millions of items, walks sub-folders, supports parallel deletes, and includes a -WhatIf dry-run for safety.</li>
+  <li>🌍 <a href="https://github.com/travishankins/azure-launchpad" target="_blank" rel="noopener noreferrer"><b>azure-launchpad</b></a> - 🚀 Azure Launchpad (SMEC Edition) — opinionated Azure landing zone for small and midsized enterprises (Terraform + Bicep + interactive deployment wizard)</li>
+  <li>🤖 <a href="https://github.com/travishankins/azure-agentic-demo" target="_blank" rel="noopener noreferrer"><b>azure-agentic-demo</b></a> - Agentic DevOps &amp; GitHub Copilot Deep Dive demo - MCP servers, Agent Mode, Coding Agent</li>
+  <li>📈 <a href="https://github.com/travishankins/azure-monitor-poc" target="_blank" rel="noopener noreferrer"><b>azure-monitor-poc</b></a> - </li>
+  <li>💪 <a href="https://github.com/travishankins/azure-fileshare-cost-workbook" target="_blank" rel="noopener noreferrer"><b>azure-fileshare-cost-workbook</b></a> - Azure Workbook that shows estimated cost per file share by distributing storage account billing proportionally based on provisioned capacity</li>
+  <li>🧹 <a href="https://github.com/travishankins/azure-file-purge" target="_blank" rel="noopener noreferrer"><b>azure-file-purge</b></a> - PowerShell script that bulk-deletes files older than a chosen age in an Azure File Share—handles millions of items, walks sub-folders, supports parallel deletes, and includes a -WhatIf dry-run for safety.</li>
 </ul>
 <!-- FEATURED-REPOS:END -->
 
 ---
 
-<p align="center"><sub>Built with ❤️, TypeScript, and GitHub Actions · Last updated Tue, 05 May 2026 20:56:42 GMT</sub></p>
+<p align="center"><sub>Built with ❤️, TypeScript, and GitHub Actions · Last updated Tue, 05 May 2026 21:04:21 GMT</sub></p>
