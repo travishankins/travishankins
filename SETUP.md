@@ -31,6 +31,7 @@ Visit https://github.com/travishankins — the README will render on your profil
 ## 4. Wire up the dynamic bits
 
 ### Spotify "now playing"
+
 Uses [`spotify-recently-played-readme`](https://github.com/JeffreyCA/spotify-recently-played-readme)
 which is a hosted Vercel function. To enable:
 
@@ -41,6 +42,7 @@ which is a hosted Vercel function. To enable:
    `README.md` if it differs.
 
 ### Latest blog posts
+
 Edit `.github/workflows/blog-post-workflow.yml` and set `feed_list:` to
 your actual RSS feed(s). Common examples:
 
@@ -56,6 +58,7 @@ If you don't blog, just delete the `### ✍️ Latest Blog Posts` section and
 the `blog-post-workflow.yml` file.
 
 ### Recently active repos
+
 The `recent-repos.yml` workflow runs every 6 hours, asks the GitHub API for
 your 5 most-recently-pushed public, non-fork, non-archived repos, and renders
 them as `github-readme-stats` pin cards between the
@@ -65,6 +68,7 @@ To change how many repos appear, tweak `REPO_COUNT` in
 `.github/workflows/recent-repos.yml`.
 
 ### Recent GitHub activity
+
 The `recent-activity.yml` workflow uses
 [`github-activity-readme`](https://github.com/jamesgeorge007/github-activity-readme)
 to inject your last 5 public events between `<!--START_SECTION:activity-->`
@@ -75,6 +79,7 @@ markers. No config needed — it uses the built-in `GITHUB_TOKEN`.
 > select **Read and write permissions** → Save.
 
 ### Stats cards
+
 [`github-readme-stats`](https://github.com/anuraghazra/github-readme-stats) and
 [`github-readme-streak-stats`](https://github.com/DenverCoder1/github-readme-streak-stats)
 work out of the box. To include private contributions and all-time commits,
