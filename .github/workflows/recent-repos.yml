@@ -37,14 +37,36 @@ jobs:
               .filter(r => !r.fork && !r.archived && r.name.toLowerCase() !== user.toLowerCase())
               .slice(0, count);
 
-            // Render as github-readme-stats pin cards in a centered <p> with two-per-row layout.
-            const cards = picks.map(r => {
+            // Pick an emoji based on repo language / name keywords.
+            const pickEmoji = (r) => {
+              const n = r.name.toLowerCase();
+              const lang = (r.language || '').toLowerCase();
+              if (n.includes('terraform') || lang === 'hcl') return '🌍';
+              if (n.includes('bicep') || lang === 'bicep') return '💪';
+              if (n.includes('azure')) return '☁️';
+              if (n.includes('docker') || n.includes('container')) return '🐳';
+              if (n.includes('k8s') || n.includes('kube')) return '⎈';
+              if (n.includes('action') || n.includes('workflow')) return '⚙️';
+              if (n.includes('cost') || n.includes('billing')) return '💸';
+              if (n.includes('monitor') || n.includes('observ')) return '📈';
+              if (n.includes('demo') || n.includes('sample')) return '🧪';
+              if (n.includes('purge') || n.includes('clean')) return '🧹';
+              if (n.includes('agent') || n.includes('ai')) return '🤖';
+              if (n.includes('launch') || n.includes('starter')) return '🚀';
+              if (lang === 'python') return '🐍';
+              if (lang === 'typescript' || lang === 'javascript') return '📜';
+              if (lang === 'powershell') return '💠';
+              return '📦';
+            };
+
+            // Render as a simple bullet list with emoji + linked repo name + description.
+            const lines = picks.map(r => {
               const url = `https://github.com/${user}/${r.name}`;
-              const img = `https://github-readme-stats.vercel.app/api/pin/?username=${user}&repo=${encodeURIComponent(r.name)}&hide_border=true&bg_color=00000000`;
-              return `  <a href="${url}"><img height="120" src="${img}" alt="${r.name}"/></a>`;
+              const desc = r.description ? ` — ${r.description}` : '';
+              return `- ${pickEmoji(r)} [**${r.name}**](${url})${desc}`;
             }).join('\n');
 
-            const block = `<!-- RECENT-REPOS:START -->\n<p align="center">\n${cards}\n</p>\n<!-- RECENT-REPOS:END -->`;
+            const block = `<!-- RECENT-REPOS:START -->\n${lines}\n<!-- RECENT-REPOS:END -->`;
 
             const readmePath = 'README.md';
             const readme = fs.readFileSync(readmePath, 'utf8');
