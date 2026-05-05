@@ -1,0 +1,73 @@
+name: Update README with recently active repos
+on:
+  schedule:
+    # Runs every 6 hours
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-recent-repos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build recent repos block
+        uses: actions/github-script@v7
+        env:
+          GH_USER: travishankins
+          REPO_COUNT: '5'
+        with:
+          script: |
+            const fs = require('fs');
+            const user = process.env.GH_USER;
+            const count = parseInt(process.env.REPO_COUNT, 10);
+
+            // Pull the user's most-recently-pushed public repos (excluding forks).
+            const { data: repos } = await github.rest.repos.listForUser({
+              username: user,
+              sort: 'pushed',
+              direction: 'desc',
+              per_page: 30,
+            });
+
+            const picks = repos
+              .filter(r => !r.fork && !r.archived && r.name.toLowerCase() !== user.toLowerCase())
+              .slice(0, count);
+
+            // Render as github-readme-stats pin cards in a centered <p> with two-per-row layout.
+            const cards = picks.map(r => {
+              const url = `https://github.com/${user}/${r.name}`;
+              const img = `https://github-readme-stats.vercel.app/api/pin/?username=${user}&repo=${encodeURIComponent(r.name)}&hide_border=true&theme=transparent`;
+              return `  <a href="${url}"><img height="120" src="${img}" alt="${r.name}"/></a>`;
+            }).join('\n');
+
+            const block = `<!-- RECENT-REPOS:START -->\n<p align="center">\n${cards}\n</p>\n<!-- RECENT-REPOS:END -->`;
+
+            const readmePath = 'README.md';
+            const readme = fs.readFileSync(readmePath, 'utf8');
+            const updated = readme.replace(
+              /<!-- RECENT-REPOS:START -->[\s\S]*?<!-- RECENT-REPOS:END -->/,
+              block
+            );
+
+            if (updated !== readme) {
+              fs.writeFileSync(readmePath, updated);
+              core.info(`Updated README with ${picks.length} repos.`);
+            } else {
+              core.info('No change to README.');
+            }
+
+      - name: Commit changes
+        run: |
+          if [[ -n "$(git status --porcelain README.md)" ]]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "chore: update recently active repos"
+            git push
+          else
+            echo "No changes to commit."
+          fi
