@@ -1,0 +1,16 @@
+{
+  "name": "travishankins-profile",
+  "version": "1.0.0",
+  "description": "Travis Hankins' automated GitHub profile README.",
+  "private": true,
+  "main": "src/app.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node build/app.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "typescript": "^5.6.2"
+  }
+}
