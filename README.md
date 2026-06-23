@@ -36,7 +36,7 @@
 
 <!-- FEATURED-REPOS:START -->
 <ul>
-  <li>🌍 <a href="https://github.com/travishankins/azure-launchpad" target="_blank" rel="noopener noreferrer"><b>azure-launchpad</b></a> - 🚀 Azure Launchpad (SMEC Edition) — opinionated Azure landing zone for small and midsized enterprises (Terraform + Bicep + interactive deployment wizard)</li>
+  <li>🚀 <a href="https://github.com/travishankins/azure-launchpad" target="_blank" rel="noopener noreferrer"><b>azure-launchpad</b></a> - 🚀 Azure Launchpad (SMEC Edition) — opinionated Azure landing zone for small and midsized enterprises (Terraform + Bicep + interactive deployment wizard)</li>
   <li>🤖 <a href="https://github.com/travishankins/azure-agentic-demo" target="_blank" rel="noopener noreferrer"><b>azure-agentic-demo</b></a> - Agentic DevOps &amp; GitHub Copilot Deep Dive demo - MCP servers, Agent Mode, Coding Agent</li>
   <li>📈 <a href="https://github.com/travishankins/azure-monitor-poc" target="_blank" rel="noopener noreferrer"><b>azure-monitor-poc</b></a> - </li>
   <li>💪 <a href="https://github.com/travishankins/azure-fileshare-cost-workbook" target="_blank" rel="noopener noreferrer"><b>azure-fileshare-cost-workbook</b></a> - Azure Workbook that shows estimated cost per file share by distributing storage account billing proportionally based on provisioned capacity</li>
@@ -46,4 +46,4 @@
 
 ---
 
-<p align="center"><sub>Built with ❤️, TypeScript, and GitHub Actions · Last updated Mon, 22 Jun 2026 12:13:36 GMT</sub></p>
+<p align="center"><sub>Built with ❤️, TypeScript, and GitHub Actions · Last updated Tue, 23 Jun 2026 09:52:01 GMT</sub></p>
